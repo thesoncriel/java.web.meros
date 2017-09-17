@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>회원 가입</title>
+ <script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="documentview.css"/>
+</head>
+<body onload="docInit()" background="img/BG.jpg" tracingopacity="100">
+<form id="frm" method="post" enctype="multipart/form-data" action="insert.jsp">
+<br/>
+<h2>회원 가입</h2>
+<hr style="color: #aaccff"/>
+<br/>
+<table width="350" border="0" cellpadding="0" cellspacing="3" id="tblInput">
+  <tr>
+    <td width="" align="right" bgcolor="#C8E8FF">아이디</td>
+    <td bgcolor="#E6F4FF">
+      <input type="text" name="val"></input>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#C8E8FF"> 비밀번호</td>
+    <td bgcolor="#E6F4FF">
+      <label>
+        <input type="password" name="val"></input>
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#C8E8FF"> 이름</td>
+    <td bgcolor="#E6F4FF">
+      <label>
+        <input type="text" name="val"></input>
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#C8E8FF">주민번호</td>
+    <td bgcolor="#E6F4FF">
+      <label>
+        <input type="text" name="val"></input>
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#C8E8FF"> 이메일</td>
+    <td bgcolor="#E6F4FF">
+      <label>
+        <input type="text" name="val"></input>
+        </label>
+    </td>
+  </tr>
+<input type="hidden" id="hdnAdmin" name="val" value="false"/>
+</table>
+<hr style="color: #09F"/>
+<input type="submit" value="입력 완료"/>
+<input type="hidden" name="db" value="0"/>
+<input type="hidden" id="hdnMd" name="md" value="join"/>
+</form>
+</body>
+</html>

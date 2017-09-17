@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+<style type="text/css">
+	body{
+	margin: 0px;
+	}
+	span.log, span.menu{width:230px;}
+	span.log, span.top{height:170px;}
+	span.top, span.main{width:950px;}
+	span.menu, span.main{height:500px;}
+	div.user{height:300px;}
+	
+	span.log, span.top, span.menu, span.main{
+	float:left;
+	overflow:scoll;
+	}
+	
+	span.log {
+	background-color:#ff8800;
+	}
+	span.top {
+	background-color:#0088ff;
+	}
+	span.menu{ 
+	background-color:#88ff44;
+	}
+	span.main{
+	background-color:#ff88bb;
+	}
+	div.user{
+	position: relative;
+	top:0px;
+	left:0px;
+	background-color:#eeeeee;
+	}
+</style>
+</head>
+<body>
+
+<span class="top"><span class="log">로그인 부분</span>상단 메뉴</span>
+<span class="main">
+	<span class="menu">
+	<div class="user">
+	
+	</div>
+		<a href="search.jsp?db=0&att=0&opr=6&val=&pg=1">사용자</a><br/>
+		<a href="search.jsp?db=1&att=0&opr=6&val=&pg=1">경마선수</a><br/>
+		<a href="search.jsp?db=2&att=0&opr=6&val=&pg=1">경주말</a><br/>
+		<a href="search.jsp?db=3&att=0&opr=6&val=&pg=1">경주결과</a><br/>
+	</span>
+	본문
+	</span>
+
+</body>
+</html>

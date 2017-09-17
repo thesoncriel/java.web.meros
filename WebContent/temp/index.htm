@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>:::::::::: Web Meroz ver0.5 by Team Blink 2nd ::::::::::</title>
+<style type="text/css">
+body{
+margin: 0px;
+text-align: center;
+}
+#frmLogin{
+width: 400px;
+height: 260px;
+border-width: 4px;
+border-style: double;
+border-color: #a7d9fb;
+text-align: center;
+}
+.lblLogin{
+width: 6em;
+
+}
+#txtId{
+
+}
+#txtName{
+
+}
+#btnJoin{
+
+}
+.panLogin{
+
+background-color: red;
+}
+</style>
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div>Web Meroz 0.5</div>
+<div>-경마 관리 시스템-</div>
+<form id="frmLogin" action="login.jsp" method="post">
+	<br><br><br><br>
+		<div>
+			
+		<p><input type="text" name="id" id="txtId"></input></p>
+		<p><input type="password" name="pw" id="txtName"></input></p>
+		<input type="submit" id="btnSubmit" value="로그인" onclick="btnSubmit_OnClick()"></input>
+		<input type="submit" id="btnJoin" value="회원가입" onclick="btnJoin_OnClick()"></input>
+	</div>
+	<input type="hidden" id="hdnValue" name="value"></input>
+</form>
+</body>
+</html>

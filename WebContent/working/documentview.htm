@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" action="insert.jsp">
+		아이디 : <input type="text" name="val"/><br/>
+		비밀번호 : <input type="text" name="val"/><br/>
+		이름 : <input type="text" name="val"/><br/>
+		주민번호 : <input type="text" name="val"/><br/>
+		이메일 : <input type="text" name="val"/><br/>
+		관리자 여부 : 예<input type="radio" name="val" value="예"/> 아니오<input type="radio" name="val" value="아니오"/>
+		<img width="150" height="200" style="background-image:url('pic/temp.bmp');">
+				
+			</img><br/>
+		<input type="file" name="picURL">
+				<xsl:attribute name="defaultvalue"><xsl:value-of select="body/players/player/picURL"/></xsl:attribute>
+			</input><br/>
+		<input type="submit" value="작성 완료"/>
+		<input type="hidden" name="db" value="0"/>
+	</form>
+</body>
+</html>

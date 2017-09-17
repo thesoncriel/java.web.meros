@@ -1,0 +1,55 @@
+
+
+ #left1
+    {
+    	margin-left:70px;
+    }
+    .listview {
+	width:598px;
+	font-size:1.0em;
+	text-align=center;
+	align=center;
+	font-weight: bold;
+	text-align: left;
+	}
+.chkbox{
+	background-color: #B3D9FF;
+}
+.listdata{
+
+	padding-top:2px;
+	padding-right:0px;
+	padding-bottom:2px;
+	padding-left:0px;
+	text-align: left;
+	vertical-align: top;
+}
+.record{
+	padding:4px;
+	font-size:1.0em;
+	color:#000;
+	text-align=right;
+	font-weight: bold;
+	text-align: right;
+	background-color:#D2E8FF;
+	text-valign:middle;
+	width: 150px;
+}
+.recorddata{
+	padding:4px;
+	font-size:1.0em;
+	color:#000;
+	text-align=left;
+	align=center;
+	font-weight: bold;
+	text-align: left;
+	background-color:#E8F3FF;
+	width: 250px;
+}
+    .image
+    {
+        padding: 2px 7px 2px 7px;
+        text-align: center;
+		vertical-align: middle;
+    }
+   

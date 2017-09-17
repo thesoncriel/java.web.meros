@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+table#tblInput tr td{
+	padding: 7px;
+}
+#frm{
+	margin-left:50px;
+}
+input{
+	margin-right:4px;
+}
+hr{
+	width:500px;
+	text-align:left;
+}
+.imgBxx{
+margin-right:6px; 
+border-width:2px; 
+border-style:dashed; 
+border-color:#66CCFF;
+}
