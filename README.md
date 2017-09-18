@@ -9,7 +9,7 @@
 * XML, Text 및 엑셀 출력 지원
 * RDBMS: MS Access (JDBC ODBC)
 * XSLT 를 이용한 템플릿 처리
-* 학과 내 디자이너(...)를 영입하여 이전 보다 UI가 좀 더 화려해짐.
+* 학과 내 디자이너를 영입하여 이전 보다 UI가 좀 더 화려해짐.
 * JFreeChart를 이용한 그래프 출력
 
 ## Licence
